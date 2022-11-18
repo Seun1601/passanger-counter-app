@@ -9,6 +9,7 @@ body{
     background: linear-gradient(78deg, rgba(228,209,135,1) 44%, rgba(218,171,102,0.9766423357664233) 52%);
     width: 100vw;
     height: 100vh;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -33,6 +34,7 @@ button:active{
    transform:scale(0.98);
    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
    border: 2px solid blue;
+   
 }
 .save{
     background-color: green;
@@ -45,8 +47,17 @@ button:active{
     align-items: center;
     padding: 2rem;
     border-radius: 20px;
-    height: 40vh;
+    height: 50vh;
 }
+#reset{
+    align-self: flex-end;
+    padding: 0;
+    width: auto;
+    color: black;
+    background-color: transparent;
+    font-size: 3rem;
+}
+
 @media (max-width: 450px) {
     h2{
         font-size: 2rem;
