@@ -9,6 +9,9 @@ body{
     background: linear-gradient(78deg, rgba(228,209,135,1) 44%, rgba(218,171,102,0.9766423357664233) 52%);
     width: 100vw;
     height: 100vh;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;

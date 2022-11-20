@@ -7,20 +7,22 @@
   //let previous = "12 -"
   function Increment(){
     people += 1;
-    count.innerText = people;
+    count.textContent = people;
     
   }
-  count.innerText = people;
+  count.textContent = people;
  
   
   function addEntry(){
-     keep.innerText +=  " " + people + " - ";
+     keep.textContent +=  " " + people + " - ";
+     count.textContent = "0"
+     people = 0;
   }
  restart.addEventListener("click", clear);
 
   function clear(){
-    keep.innerText = "Previous entries: ";
-    count.innerText = 0;
+    keep.textContent = "Previous entries: ";
+    count.textContent = 0;
     people = 0;
     console.log("God pleaseeeeeeeee");
   }
